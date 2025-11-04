@@ -1,0 +1,11 @@
+[file_customization]
+
+folder_colors={
+"res://assets/": "orange",
+"res://localizations/": "purple",
+"res://resources/": "teal",
+"res://scenes/": "green",
+"res://scripts/": "blue",
+"res://shaders/": "red",
+"res://themes/": "pink"
+}

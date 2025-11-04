@@ -1,0 +1,11 @@
+#!/bin/sh
+
+gdformat .
+
+gdlint .
+if [ $? -ne 0 ]; then
+  echo "gdlint failed, aborting commit."
+  exit 1
+fi
+
+git update-index --again
